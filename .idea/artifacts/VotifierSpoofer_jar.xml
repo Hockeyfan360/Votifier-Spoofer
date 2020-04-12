@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="VotifierSpoofer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/VotifierSpoofer_jar</output-path>
+    <root id="archive" name="VotifierSpoofer.jar">
+      <element id="module-output" name="VotifierSpoofer" />
+    </root>
+  </artifact>
+</component>
