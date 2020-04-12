@@ -15,7 +15,7 @@ Here's the kicker: Votifier has no way to verify that votes sent are from a legi
 Best practice for this type of scenario would have been for voting sites to ALSO have a keypair used to sign votes. In this case, Votifier would have prompted server owners for the voting sites' public keys. Armed with the new public keys, Votifier could then verify that all votes received are cryptographically signed and from legitimate sites.
 
 ## Okay, but how can I use this?
-Firstly, I don't condone using this program with malicious. It was meant to demonstrate that Votifier is inherently vulnerable because of its poor cryptography structure. Secondly, this program only works if you have access to the server's public key. For anyone wishing to test this program, though, you can download the jar from the releases page and run it with the command:
+Firstly, I don't condone using this program with malicious intent. It was meant to demonstrate that Votifier is inherently vulnerable because of its poor cryptography structure. Secondly, this program only works if you have access to the server's public key. For anyone wishing to test this program, though, you can download the jar from the releases page and run it with the command:
 
     java -jar VotifierSpoofer.jar
 
